@@ -1,0 +1,105 @@
+.App {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  font-size: 16px;
+  
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: forestgreen;
+}
+
+input {
+  padding-left: 5px;
+  font-size: 20px;
+  width: 250px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+table {
+  width: 1000px;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+thead {
+  background-color: rgb(44, 44, 44);
+  color: white;
+
+}
+
+tbody>tr {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 20px;
+}
+
+.rank {
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+  gap: 10px;
+}
+
+.symbol {
+  text-align: center;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button{
+  background-color: green;
+  border: none;
+  color: #fff;
+  height: 32px;
+}
+
+.div{
+  width: 100%;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: blue;
+  color: #fff;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#link a{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.crypto{
+  padding: 20px 0;
+}
